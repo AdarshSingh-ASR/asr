@@ -510,7 +510,8 @@ h1 {
 
 .dock a:nth-child(3) svg,
 .dock a:nth-child(4) svg,
-.dock a:nth-child(5) svg {
+.dock a:nth-child(5) svg,
+.dock a:nth-child(6) svg {
   fill: currentColor;
   stroke: none;
 }
@@ -565,14 +566,14 @@ h1 {
 
   .dock {
     width: calc(100% - 24px);
-    justify-content: center;
+    justify-content: space-between;
     gap: 0;
     padding: 8px;
   }
 
   .dock a,
   .dock button {
-    width: 40px;
+    width: 38px;
     height: 40px;
   }
 }
@@ -605,7 +606,7 @@ h1 {
   }
 
   .dock svg {
-    width: 19px;
-    height: 19px;
+    width: 18px;
+    height: 18px;
   }
 }
