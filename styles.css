@@ -347,6 +347,18 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.latest-finora {
+  order: -3;
+}
+
+.latest-counterworlds {
+  order: -2;
+}
+
+.latest-vio {
+  order: -1;
+}
+
 .project-shot {
   height: 210px;
   border-bottom: 1px solid var(--line);
